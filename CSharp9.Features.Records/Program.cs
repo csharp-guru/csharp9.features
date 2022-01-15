@@ -25,9 +25,11 @@ namespace CSharp9.Features.Records
             var originalPerson = otherPerson with { LastName = "Lane" };
             // => {FirstName = "Lois", LastName = "Lane" }
             
-            Console.WriteLine(ReferenceEquals(person, originalPerson)); // => false (they are not the same object)
+            Console.WriteLine(ReferenceEquals(person, originalPerson)); 
+            // => false (they are not the same object)
 
-            Console.WriteLine(Equals(person, originalPerson));// => true (they have the same value)
+            Console.WriteLine(Equals(person, originalPerson));
+            // => true (they have the same value)
 
 
             /* [2] Inheritance */
@@ -42,3 +44,15 @@ namespace CSharp9.Features.Records
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
